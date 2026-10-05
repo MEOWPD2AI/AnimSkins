@@ -1,0 +1,7 @@
+<materials version="3" group="weapon_contender">
+	<material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" name="mtr_fps_upg_m4_g_contender" version="2" unique="true">
+		<diffuse_texture file="units/pd2_dlc_pxp3/weapons/wpn_upg_m4_mod_pts/wpn_fps_upg_g_m4_df" />
+		<bump_normal_texture file="units/pd2_dlc_pxp3/weapons/wpn_upg_m4_mod_pts/wpn_fps_upg_g_m4_nm" />
+		<material_texture file="units/pd2_dlc_pxp3/weapons/wpn_upg_m4_mod_pts/wpn_fps_upg_g_m4_gsma" />
+	</material>
+</materials>

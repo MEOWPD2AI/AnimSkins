@@ -1,0 +1,22 @@
+<materials version="3" group="weapon_group">
+	<material name="mat_body" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM:SELF_ILLUMINATION_UVANIM" version="2" unique="true">
+		<diffuse_texture file="textures/original/default_df" />
+		<self_illumination_texture file="textures/original/default_il" />
+		<variable name="uv_speed" value="-0.1 0 0" type="vector3" />
+		<variable name="il_bloom" value="1.0" type="float" />
+		<variable name="il_multiplier" value="5" type="scalar" />
+	</material>
+	<material name="mat_body_skinless" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2" unique="true">
+		<diffuse_texture file="units/pd2_dlc_esp/weapons/wpn_fps_spe_dart_pts/lower_bodies/wpn_fps_spe_dart_lower_body_standard_df" />
+		<material_texture file="units/pd2_dlc_esp/weapons/wpn_fps_spe_dart_pts/lower_bodies/wpn_fps_spe_dart_lower_body_standard_gsm" />
+		<bump_normal_texture file="units/pd2_dlc_esp/weapons/wpn_fps_spe_dart_pts/lower_bodies/wpn_fps_spe_dart_lower_body_standard_nm" />
+		<reflection_texture type="cubemap" global_texture="current_global_texture" />
+	</material>
+	<material name="mat_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:FPS:NORMALMAP" version="2" unique="true">
+		<diffuse_texture file="units/pd2_dlc_bbq/weapons/wpn_fps_fla_mk2_pts/glass_df" />
+		<opacity_texture file="units/pd2_dlc_bbq/weapons/wpn_fps_fla_mk2_pts/glass_op" />
+		<bump_normal_texture file="units/pd2_dlc_bbq/weapons/wpn_fps_fla_mk2_pts/glass_nm" />
+		<reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_silver_df" />
+		<variable value="2 1 -0.5" type="vector3" name="fresnel_settings" />
+	</material>
+</materials>

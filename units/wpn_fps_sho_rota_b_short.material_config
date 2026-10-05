@@ -1,0 +1,6 @@
+<materials version="3" group="weapon_group">
+	<material name="mat_pipe_short" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2" unique="true">
+		<diffuse_texture file="units/pd2_dlc_rota/weapons/wpn_fps_sho_rota_pts/pipe_short_df" />
+		<bump_normal_texture file="units/pd2_dlc_rota/weapons/wpn_fps_sho_rota_pts/pipe_short_nm" />
+	</material>
+</materials>

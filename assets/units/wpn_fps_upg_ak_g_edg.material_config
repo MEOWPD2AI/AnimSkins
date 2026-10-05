@@ -1,0 +1,7 @@
+<materials version="3" group="weapon_group">
+	<material render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" name="mat_edg" version="2" unique="true">
+		<diffuse_texture file="units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_upg_ak_g_edg_df" />
+		<bump_normal_texture file="units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_upg_ak_g_edg_nm" />
+		<material_texture file="units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_upg_ak_g_edg_gsma" />
+	</material>
+</materials>

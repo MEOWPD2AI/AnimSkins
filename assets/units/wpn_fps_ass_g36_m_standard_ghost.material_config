@@ -1,0 +1,14 @@
+<materials version="3" group="weapon_g36">
+	<material name="mag" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material name="mtr_bullet" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material name="plastic" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+</materials>

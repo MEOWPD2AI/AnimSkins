@@ -1,0 +1,10 @@
+<materials version="3" group="weapon_g36">
+	<material name="ksk" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material name="mat_shadow" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+</materials>

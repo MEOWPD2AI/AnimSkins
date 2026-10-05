@@ -1,0 +1,17 @@
+<materials version="3" group="weapon_group">
+	<material name="mat_body" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material name="mat_body_skinless" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material name="mat_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:FPS:NORMALMAP" version="2" unique="true">
+		<diffuse_texture file="units/pd2_dlc_bbq/weapons/wpn_fps_fla_mk2_pts/glass_df" />
+		<opacity_texture file="units/pd2_dlc_bbq/weapons/wpn_fps_fla_mk2_pts/glass_op" />
+		<bump_normal_texture file="units/pd2_dlc_bbq/weapons/wpn_fps_fla_mk2_pts/glass_nm" />
+		<reflection_texture type="cubemap" file="units/payday2/cubemaps/cubemap_silver_df" />
+		<variable value="2 1 -0.5" type="vector3" name="fresnel_settings" />
+	</material>
+</materials>

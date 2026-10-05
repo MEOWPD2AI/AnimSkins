@@ -1,0 +1,106 @@
+{
+	"imported": [],
+	"mod": "AnimSkins",
+	"skins": [
+		{
+			"id": "custom_can_you_see_me",
+			"name": "can you see me",
+			"base": "textures/original/black",
+			"glow": "textures/original/custom_can_you_see_me_il",
+			"glow_scale": 0.1,
+			"frames": 48
+		},
+		{
+			"id": "custom_cloudreddy",
+			"name": "cloudreddy",
+			"base": "textures/original/black",
+			"glow": "textures/original/custom_cloudreddy_il",
+			"glow_scale": 0.1,
+			"frames": 48
+		},
+		{
+			"id": "custom_electic",
+			"name": "electic",
+			"base": "textures/original/black",
+			"glow": "textures/original/custom_electic_il",
+			"glow_scale": 0.1,
+			"frames": 48
+		},
+		{
+			"id": "custom_gothgirl",
+			"name": "gothgirl",
+			"base": "textures/original/black",
+			"glow": "textures/original/custom_gothgirl_il",
+			"glow_scale": 0.1,
+			"frames": 48
+		},
+		{
+			"id": "custom_infintiypur",
+			"name": "infintiypur",
+			"base": "textures/original/black",
+			"glow": "textures/original/custom_infintiypur_il",
+			"glow_scale": 0.1,
+			"frames": 48
+		},
+		{
+			"id": "custom_lonelybitch",
+			"name": "lonelybitch",
+			"base": "textures/original/black",
+			"glow": "textures/original/custom_lonelybitch_il",
+			"glow_scale": 0.1,
+			"frames": 48
+		},
+		{
+			"id": "custom_purpley",
+			"name": "purpley",
+			"base": "textures/original/black",
+			"glow": "textures/original/custom_purpley_il",
+			"glow_scale": 0.1,
+			"frames": 48
+		},
+		{
+			"id": "custom_swagger",
+			"name": "swagger",
+			"base": "textures/original/black",
+			"glow": "textures/original/custom_swagger_il",
+			"glow_scale": 0.1,
+			"frames": 48
+		},
+		{
+			"id": "custom_vibing",
+			"name": "vibing",
+			"base": "textures/original/black",
+			"glow": "textures/original/custom_vibing_il",
+			"glow_scale": 0.1,
+			"frames": 48
+		},
+		{
+			"id": "custom_walfu",
+			"name": "Walfu",
+			"base": "textures/original/black",
+			"glow": "textures/original/custom_walfu_il",
+			"glow_scale": 0.1,
+			"frames": 48
+		},
+		{
+			"id": "custom_worm",
+			"name": "worm",
+			"base": "textures/original/black",
+			"glow": "textures/original/custom_worm_il",
+			"glow_scale": 0.1,
+			"frames": 48
+		},
+		{
+			"base": "textures/original/ghost_df",
+			"glow": "textures/original/ghost_il",
+			"name": "Ghost",
+			"id": "ghost"
+		}
+	],
+	"default": "custom_can_you_see_me",
+	"baked": {
+		"bloom": 1,
+		"glow": 5,
+		"speed": 0.1
+	}
+}

@@ -1,0 +1,10 @@
+<materials version="3" group="weapon_group">
+	<material name="mat_mxm_mbus_sight" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material name="no_blurr" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+</materials>

@@ -1,0 +1,8 @@
+<materials version="3" group="weapon_deagle">
+	<material name="mat_sight_ck" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DEPTH_SCALING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2" unique="true">
+		<diffuse_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_deagle_ck_pts/sight_ck_df" />
+		<bump_normal_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_deagle_ck_pts/sight_ck_nm" />
+		<material_texture file="units/pd2_dlc_pda10/weapons/wpn_fps_pis_deagle_ck_pts/sight_ck_gsma" />
+		<reflection_texture file="environments/cubemaps/weapon_cube" type="cubemap" />
+	</material>
+</materials>

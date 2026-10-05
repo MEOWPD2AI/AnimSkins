@@ -1,0 +1,24 @@
+<materials version="3" group="charm">
+	<material name="mat_cowboyhat" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material name="mtr_beer" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material name="mtr_charm_base" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material name="mtr_foam" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:FPS" name="mtr_glass" version="2" unique="true">
+		<opacity_texture file="units/pd2_dlc_pxp2/weapons/wpn_fps_upg_charm/beer_glass_df" />
+		<reflection_texture file="environments/cubemaps/cubemap_gold" type="cubemap" />
+		<diffuse_texture file="units/pd2_dlc_pxp2/weapons/wpn_fps_upg_charm/beer_glass_df" />
+		<variable type="vector3" name="fresnel_settings" value="0.34999999403954 0.6599999666214 1" />
+	</material>
+</materials>

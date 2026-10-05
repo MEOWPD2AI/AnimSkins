@@ -1,0 +1,6 @@
+<materials version="3" group="wpn_fps_upg_ns_ass_smg_v6">
+	<material name="mtr_v6" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+</materials>

@@ -1,0 +1,10 @@
+<materials version="3" group="weapon_ms3gl">
+	<material name="mat_wpn_fps_3gl" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material render_template="effect:DIFFUSE0_TEXTURE" name="mtr_display" version="2" unique="true">
+		<variable type="scalar" name="intensity" value="reddot" />
+		<diffuse_texture file="units/pd2_dlc_gage_snp/weapons/wpn_effects_textures/wpn_effect_rangefinder_dds_df" />
+	</material>
+</materials>

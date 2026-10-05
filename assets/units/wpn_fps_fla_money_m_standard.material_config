@@ -1,0 +1,16 @@
+<materials version="3" group="weapon_system">
+	<material name="mtr_money_bits" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:DIFFUSE_UVANIM:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM:SELF_ILLUMINATION_UVANIM" version="2" unique="true">
+		<diffuse_texture file="textures/original/default_df" />
+		<self_illumination_texture file="textures/original/default_il" />
+		<variable name="uv_speed" value="0.1 0 0" type="vector3" />
+		<variable name="il_bloom" value="1.0" type="float" />
+		<variable name="il_multiplier" value="5" type="scalar" />
+	</material>
+	<material unique="true" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:FPS:NORMALMAP" version="2" name="mtr_glass">
+		<variable type="vector3" name="fresnel_settings" value="0.14000000059605 0.14000000059605 0.019999999552965" />
+		<opacity_texture file="units/pd2_dlc_bbq/weapons/molotov_cocktail/textures/wpn_fps_molotov_glass_op" />
+		<diffuse_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/money_bits_df" />
+		<reflection_texture type="cube" global_texture="current_global_texture" />
+		<bump_normal_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/money_bits_nm" />
+	</material>
+</materials>

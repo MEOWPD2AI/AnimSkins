@@ -1,0 +1,21 @@
+<materials version="3" group="weapon_group">
+	<material name="body" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material version="2" unique="true" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:FPS:NORMALMAP" name="glass">
+		<variable value="2 1 1" type="vector3" name="fresnel_settings" />
+		<opacity_texture file="units/pd2_dlc_bbq/weapons/wpn_fps_fla_mk2_pts/glass_op" />
+		<diffuse_texture file="units/pd2_dlc_bbq/weapons/wpn_fps_fla_mk2_pts/glass_df" />
+		<reflection_texture type="cube" global_texture="current_global_texture" />
+		<bump_normal_texture file="units/pd2_dlc_bbq/weapons/wpn_fps_fla_mk2_pts/glass_nm" />
+	</material>
+	<material name="mtr_head" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+	<material name="mtr_meter" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:FPS" version="2" unique="true">
+		<diffuse_texture file="textures/original/ghost_df" />
+		<variable name="intensity" value="3" type="scalar" />
+	</material>
+</materials>

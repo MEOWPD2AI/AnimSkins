@@ -1,0 +1,4 @@
+<materials version="3">
+	<material name="indicator" render_template="generic" version="2" unique="true" />
+	<material name="laser" render_template="generic" version="2" unique="true" />
+</materials>
